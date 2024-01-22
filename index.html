@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Hockeys Club</title>
+
+  <!--Tailwind and DaisyUI cdn-->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!--Google Fonts (Manrope) link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"  rel="stylesheet">
+
+  <!--Style for fonts-->
+  <style>
+    .font-manrope{
+      font-family: "Manrope", sans-serif;
+    }
+  </style>
+</head>
+
+<body class="font-manrope">
+
+  <!--Navbar section-->
+  <nav class="container px-2 py-4 my-4 lg:px-10 mx-auto my-10">
+    <div class="navbar">
+      <div class="lg:hidden sm:flex gap-10 h-8 w-8">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+      </div>
+      <div class="navbar-start">
+        <a class="font-extrabold text-2xl lg:text-4xl font-extrabold">Hockey's</a>
+      </div>
+      <div class="navbar-center hidden lg:flex gap-11">
+        <ul class="menu menu-horizontal px-1">
+          <li><a class="text-[#FF4240] font-bold">Home</a></li>
+          <li><a>About</a></li>
+          <li><a>Pages</a></li>
+          <li><a>Blog</a></li>
+          <li><a>Contact</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end flex flex-row gap-6">
+        <div class="hidden lg:block">
+          <img src="Images/Frame.svg" alt="">
+        </div>
+        <a class="btn text-base rounded-lg px-2 lg:px-6 bg-[#FF4240] text-white font-bold text-xl">Get Ticket</a>
+      </div>
+    </div>
+  </nav>
+
+  
+</body>
+</html>
