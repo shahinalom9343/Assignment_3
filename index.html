@@ -25,7 +25,7 @@
 <body class="font-manrope">
 
   <!--Navbar section-->
-  <nav class="container px-2 py-4 my-4 lg:px-10 mx-auto my-10">
+  <nav class="container mt-4 px-4 mx-auto">
     <div class="navbar">
       <div class="lg:hidden sm:flex gap-10 h-8 w-8">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
@@ -51,6 +51,48 @@
     </div>
   </nav>
 
+  <!--Banner section-->
+  <section class="container mt-4 px-4 mx-auto flex flex-col gap-4 lg:relative border border-8 border-red-500">
+    
+      <!--carousel-->
+      <div class="carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="Images/1.png" class="w-full" />
+          <div class="absolute flex justify-between transform lg:gap-4 left-5 bottom-5 gap-4">
+            <a href="#slide4" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="Images/1.png" class="w-full" />
+          <div class="absolute flex justify-between transform lg:left-5 bottom-5 gap-4l fill-[#131318]">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="Images/1.png" class="w-full" />
+          <div class="absolute flex justify-between transform lg:left-5 bottom-5 gap-4 fill-[#131318]">
+            <a href="#slide2" class="btn btn-circle">❮</a> 
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide4" class="carousel-item relative w-full">
+          <img src="Images/1.png" class="w-full" />
+          <div class="absolute flex justify-between transform lg:left-5 bottom-5 gap-4 fill-[#131318]">
+            <a href="#slide3" class="btn btn-circle">❮</a> 
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+      <!--Heroes black field-->
+      <div class="w-full p-4 flex flex-col gap-4  lg:absolute lg:w-1/2 rounded-2xl right-8 bottom-8 p-8 bg-black text-center">
+        <h3 class="text-white text-lg lg:text-2xl font-extrabold">Meet all the heroes from the field</h3>
+        <p class="text-white text-sm opacity-60 lg:font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+      </div>
+  </section>
+
+  <!---->
   
 </body>
 </html>
